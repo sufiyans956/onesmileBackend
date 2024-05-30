@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 
-@CrossOrigin(origins = "*",allowCredentials = "true")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/user")
 public class UserController {
